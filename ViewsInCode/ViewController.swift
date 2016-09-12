@@ -15,10 +15,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.yellow()
+        view.backgroundColor = UIColor.yellow
         redView = UIView(frame: CGRect(x: 0, y: 0,
             width: view.bounds.width, height: view.bounds.height / 2))
-        redView.backgroundColor = UIColor.red()
+        redView.backgroundColor = UIColor.red
         view.addSubview(redView)
         redView.translatesAutoresizingMaskIntoConstraints = false
         
